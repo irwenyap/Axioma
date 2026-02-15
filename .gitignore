@@ -1,0 +1,97 @@
+# ------------------------------
+# OS / Editor
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+.vscode/
+.vs/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ------------------------------
+# Build outputs (CMake)
+# ------------------------------
+build/
+build-*/
+out/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# CMake presets user-local
+CMakeUserPresets.json
+
+# Ninja / Make artifacts
+.ninja_deps
+.ninja_log
+Makefile
+
+# ------------------------------
+# MSVC / Visual Studio outputs
+# ------------------------------
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.vcxproj
+*.vcxproj.vcxproj.filters
+
+# Intermediate / output dirs
+Debug/
+Release/
+RelWithDebInfo/
+MinSizeRel/
+x64/
+x86/
+Win32/
+ipch/
+.vsconfig
+
+# MSVC build outputs
+*.obj
+*.pdb
+*.idb
+*.ilk
+*.pch
+*.tlog
+*.log
+*.iobj
+*.ipdb
+*.exp
+*.lib
+*.dll
+*.exe
+*.manifest
+
+# ------------------------------
+# Clang / GCC outputs
+# ------------------------------
+*.o
+*.a
+*.so
+*.dylib
+*.d
+*.gcda
+*.gcno
+*.gcov
+
+# ------------------------------
+# Sanitizers / profiling
+# ------------------------------
+*.profraw
+*.profdata
+
+# ------------------------------
+# Packaging
+# ------------------------------
+*.zip
+*.tar
+*.tar.gz
+*.7z
